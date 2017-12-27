@@ -2384,8 +2384,10 @@ button,
       border-radius: 4px;
       overflow: hidden; }
       .tiles article > .image img {
-        display: block;
-        width: 100%; }
+        object-fit: cover;
+        object-position: center;
+        height: 400px;
+        width: 400px; }
       .tiles article > .image:before {
         -moz-pointer-events: none;
         -webkit-pointer-events: none;
