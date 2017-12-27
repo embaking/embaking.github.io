@@ -2198,7 +2198,10 @@ input[type="radio"] + label:before {
     margin: 0 0 3em 0;
     width: 100%; }
     .image.main img {
-      width: 100%; }
+      width: 25%;
+      float: left;
+      margin-right: 50px;
+      margin-bottom: 20px; }
     @media screen and (max-width: 736px) {
       .image.main {
         margin: 0 0 2em 0; } }
@@ -2828,6 +2831,11 @@ body.is-menu-visible #menu {
   @media screen and (max-width: 736px) {
     #main {
       padding: 0em 0 4em 0 ; } }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
 
 /* Footer */
 #footer {
