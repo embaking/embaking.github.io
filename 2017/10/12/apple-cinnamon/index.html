@@ -133,13 +133,22 @@
 <!-- Comments -->
 <div>
     
+
+
     <hr />
     <h3>Comments:</h3>
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=207294229843656";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
-
+    <div class="fb-comments" data-href="http://www.thebutternutbakery.com/2017/10/12/apple-cinnamon/index.html" data-num-posts="5" data-width="100%" data-colorscheme="light"></div>
 
 </div>
 
@@ -162,10 +171,7 @@
             <ul class="icons">
                 
                 
-                    <li><a href="https://www.facebook.com/" class="icon style2 fa-facebook" target="_blank" ><span class="label">Facebook</span></a></li>
-                
-                
-                    <li><a href="https://www.instagram.com/" class="icon style2 fa-instagram" target="_blank" ><span class="label">Instagram</span></a></li>
+                    <li><a href="https://www.facebook.com/The-Butter-Nut-Bakery-1384774601650567/" class="icon style2 fa-facebook" target="_blank" ><span class="label">Facebook</span></a></li>
                 
                 
                 
@@ -173,15 +179,14 @@
                 
                 
                 
-                    <li><a href="\#" class="icon style2 fa-envelope-o" target="_blank" ><span class="label">Email</span></a></li>
                 
+                    <li><a href="mailto://admin@thebutternutbakery.com" class="icon style2 fa-envelope-o" target="_blank" ><span class="label">Email</span></a></li>
                 
-                    <li><a href="\#" class="icon style2 fa-rss" target="_blank" ><span class="label">RSS</span></a></li>
                 
             </ul>
         </section>
         <ul class="copyright">
-            <li>&copy; Untitled. All rights reserved</li>
+            <li>&copy; 2017 The Butter Nut Bakery. All rights reserved</li>
         </ul>
     </div>
 </footer>
@@ -209,18 +214,6 @@
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- Disqus Comments -->
-
-<script type="text/javascript">
-    var disqus_shortname = 'thebutternutbakery';
-
-    (function(){
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
 
 
 </body>
