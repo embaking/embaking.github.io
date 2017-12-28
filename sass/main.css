@@ -2583,6 +2583,9 @@ button,
         padding-right: 20px;
         width: 100%; }
 
+.featherlight-content {
+  overflow: hidden !important; }
+
 /* Header */
 #header {
   padding: 2em 0 0.1em 0 ; }
